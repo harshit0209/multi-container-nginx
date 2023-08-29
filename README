@@ -21,13 +21,10 @@ This repository demonstrates how to use Nginx to route traffic to different micr
 1. Hit following URL, these are for different service:
 
 
-- https://localhost/api
+- http://localhost/api
 
-<img src= ./example/service1.png>
-- https://localhost/api1
+- http://localhost/api1
 
-<img src= ./example/service2.png>
-- https://localhost/api2
+- http://localhost/api2
 
-<img src= ./example/service3.png>
 
