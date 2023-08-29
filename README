@@ -17,9 +17,9 @@ This repository demonstrates how to use Nginx to route traffic to different micr
 1. Hit following URL, these are for different service:
 
 - https://localhost/api
-![Service 1](./example/service1.png)
+![Service 1](https://github.com/harshit0209/multi-container-nginx/blob/main/example/service1.png)
 - https://localhost/api1
-![Service 2](./example/service2.png)
+![Service 2](https://github.com/harshit0209/multi-container-nginx/blob/main/example/service2.png)
 - https://localhost/api2
-![Service 3](./example/service3.png)
+![Service 3](https://github.com/harshit0209/multi-container-nginx/blob/main/example/service3.png)
 
