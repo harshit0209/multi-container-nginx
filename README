@@ -1,3 +1,7 @@
+
+[<img src= https://badgen.net/badge/Linkedin/harshit/blue>](https://www.linkedin.com/in/harshit-chaurasia-38a57016a/) 
+  
+
 # Multi-Container Nginx Setup for Microservices
 
 This repository demonstrates how to use Nginx to route traffic to different microservices based on route URLs. Three services will be running on different ports, and Nginx will handle traffic distribution based on route paths.
@@ -16,10 +20,14 @@ This repository demonstrates how to use Nginx to route traffic to different micr
    docker-compose up --build
 1. Hit following URL, these are for different service:
 
+
 - https://localhost/api
-![Service 1](https://github.com/harshit0209/multi-container-nginx/blob/main/example/service1.png)
+
+<img src= ./example/service1.png>
 - https://localhost/api1
-![Service 2](https://github.com/harshit0209/multi-container-nginx/blob/main/example/service2.png)
+
+<img src= ./example/service2.png>
 - https://localhost/api2
-![Service 3](https://github.com/harshit0209/multi-container-nginx/blob/main/example/service3.png)
+
+<img src= ./example/service3.png>
 
