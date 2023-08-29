@@ -1,5 +1,25 @@
-### Using nginx to route traffic to different microservices
-There are three services running on different port, nginx will route traffic to each of them based on route url
+# Multi-Container Nginx Setup for Microservices
 
+This repository demonstrates how to use Nginx to route traffic to different microservices based on route URLs. Three services will be running on different ports, and Nginx will handle traffic distribution based on route paths.
 
-`docker-compose up --build`
+## Prerequisites
+
+- Docker and Docker Compose are installed on your system.
+
+## Usage
+
+1. Clone this repository to your local machine:
+
+   ```bash
+   git clone https://github.com/harshit0209/multi-container-nginx.git
+   cd multi-container-nginx
+   docker-compose up --build
+1. Hit following URL, these are for different service:
+
+- https://localhost/api
+![Service 1](./example/service1.png)
+- https://localhost/api1
+![Service 2](./example/service2.png)
+- https://localhost/api2
+![Service 3](./example/service3.png)
+
