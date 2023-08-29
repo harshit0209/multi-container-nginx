@@ -1,0 +1,5 @@
+### Using nginx to route traffic to different microservices
+There are three services running on different port, nginx will route traffic to each of them based on route url
+
+
+`docker-compose up --build`
