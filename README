@@ -27,4 +27,5 @@ This repository demonstrates how to use Nginx to route traffic to different micr
 
 - http://localhost/api2
 
+- ws://localhost/ws
 
